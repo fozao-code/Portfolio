@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fozao.R.M - Professional Portfolio</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="https://picsum.photos/150/150?random=1" alt="Fozao Ruth Malu Profile Picture" class="profile-img">
+        <h1>Fozao Ruth Malu</h1>
+        <p>Aspiring Software Engineer | High School Graduate 2026</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Work Experience</a></li>
+            <li><a href="#activities">Extracurriculars</a></li>
+            <li><a href="#references">References</a></li>
+            <li><a href="#conclusion">Conclusion</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="introduction">
+            <h2><i class="fas fa-user-tie icon"></i>Introduction</h2>
+            <p>Hello! My name is Fozao Ruth Malu, a passionate and driven high school senior with a keen interest in technology and innovation. I enjoy coding, problem-solving, and exploring how digital tools can make a positive impact on communities. My career aspiration is to become a software engineer and cybersecurity analyst, where I can develop applications that solve real-world problems and help to protect data from being used against people. I am excited about pursuing higher education in computer science and contributing to the tech industry.</p>
+        </section>
+
+        <section id="education">
+            <h2><i class="fas fa-graduation-cap icon"></i>Education</h2>
+            <p><strong>King David Academy</strong>, Rwanda, Kigali<br>
+            Expected Graduation: June 2026<br><br>
+            Relevant Coursework: Cybersecurity, Computer Science, Enterprise in IT, FullStack Development, Mobile App Development.<br><br>
+            Academic Achievements: Best Performer (2025-2026), GPA: 3.8/4.0.</p>
+        </section>
+
+        <section id="skills">
+            <h2><i class="fas fa-tools icon"></i>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <h3>Technical Skills</h3>
+                    <ul>
+                        <li>Programming Languages: Python, HTML/CSS, JavaScript</li>
+                        <li>Software/Tools: Microsoft Office Suite, Adobe Photoshop (basic), Git (beginner)</li>
+                        <li>Other: Web Development</li>
+                    </ul>
+                </div>
+                <div class="skill-item">
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li>Communication: Weak verbal, but Strong written skills, showed through presentations and group projects</li>
+                        <li>Teamwork: Collaborated on team-based school initiatives</li>
+                        <li>Leadership: Organized events in school events</li>
+                        <li>Problem-Solving: Analytical approach to challenges in coding and academics</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2><i class="fas fa-briefcase icon"></i>Work Experience</h2>
+            <div class="experience-item">
+                <h3>Volunteer Library Assistant, Local Public Library (2022-Present)</h3>
+                <p>Responsibilities: Assisted in organizing digital catalogs, helped patrons with computer usage, and managed inventory of educational resources. Learnings: Gained hands-on experience with database management and improved customer service skills.</p>
+            </div>
+            <div class="experience-item">
+                <h3>Projects</h3>
+                <ul>
+                    <li>
+                        <strong>Personal Portfolio Website</strong> (2025-2026): Developed a responsive website using HTML, CSS, and JavaScript to showcase my skills and projects even though I am a beginner. This project enhanced my understanding of front-end development.
+                        <br><img src="https://picsum.photos/300/200?random=2" alt="Personal Portfolio Website Screenshot" class="project-image">
+                    </li>
+                    <li>
+                        <strong>My App Prototype</strong> (My Project, 2025-2026): Created a simple mobile app mockup in Python to connect volunteers with local events, focusing on user interface design and basic functionality.
+                        <br><img src="https://picsum.photos/300/200?random=3" alt="Community App Prototype Screenshot" class="project-image">
+                    </li>
+                    <li>
+                       
+                </ul>
+            </div>
+        </section>
+
+        <section id="activities">
+            <h2><i class="fas fa-users icon"></i>Extracurricular Activities</h2>
+            <div class="activity-item">
+                <h3>Clubs and Organizations</h3>
+                <ul>
+                    <li><strong>Media Mavericks Club</strong> (Comittee Member, 2025-Present; Video Editor, 2025-20226): Led workshops on basic editing skills.</li>
+                    <li><strong>Environmental Club</strong> (Member, 2022-Present): Participated in community clean-up drives and advocated for green initiatives at school.</li>
+                </ul>
+            </div>
+            <div class="activity-item">
+                <h3>Sports</h3>
+                <ul>
+                    <li><strong>Basketball Team</strong> (Varsity Player, 2022-Present): Played as a midfielder, contributing to the team's regional championship win in 2023. Developed discipline, teamwork, and resilience.
+                        <br><img src="https://picsum.photos/300/200?random=5" alt="Soccer Team Photo" class="project-image">
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    
+        <section id="conclusion">
+            <h2><i class="fas fa-forward icon"></i>Conclusion</h2>
+            <p>As I prepare to graduate, my goal is to enroll in a computer science and cybersecurity program at a top university, where I can deepen my technical expertise and participate in innovative research. I am committed to lifelong learning and using my skills to create inclusive technology solutions. Thank you for visiting my portfolio—I look forward to connecting and collaborating in the future!</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Fozao.R.M. All rights reserved. | Contact: FozaoRuth@gmail.com</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Fade-in animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('section').forEach(section => {
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>
